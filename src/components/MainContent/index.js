@@ -6,6 +6,7 @@ const StyledMainContent = styled.div`
   margin: 40px 240px;
   font-family: "Roboto", sans-serif;
   position: relative;
+  max-width: 60%;
 
   &::before {
     position: absolute;
@@ -16,6 +17,16 @@ const StyledMainContent = styled.div`
     right: 0;
     top: -40px;
     z-index: -1;
+  }
+
+  @media screen and (max-width: 959px) {
+    margin: 40px 120px;
+    max-width: 100%;
+  }
+
+  @media screen and (max-width: 639px) {
+    margin: 20px 40px;
+    max-width: 100%;
   }
 `;
 

@@ -1,9 +1,15 @@
 import styled from "styled-components";
 
-const CardArea = styled.div`
+const StyledCardArea = styled.div`
   margin-top: 120px;
   display: flex;
   gap: 16px;
 `;
 
-export default CardArea;
+export default function CardArea() {
+  return (
+  <StyledCardArea>
+    
+  </StyledCardArea>
+  );
+}
