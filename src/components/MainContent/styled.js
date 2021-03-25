@@ -3,7 +3,6 @@ import gitImg from "../../img/github.png";
 
 export const StyledMainContent = styled.div`
   margin: 40px 240px;
-  font-family: "Roboto", sans-serif;
   position: relative;
   max-width: 60%;
 
