@@ -63,6 +63,7 @@ export const SearchBarArea = styled.div`
   width: 100%;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 20px;
   @media screen and (max-width: 639px) {
     flex-direction: column;
     justify-content: center;
