@@ -9,8 +9,8 @@ import SearchUser from "./pages/SearchUser";
 ReactDOM.render(
   <React.StrictMode>
     <MainContent>
-      <Header></Header>
-      <SearchUser></SearchUser>
+      <Header />
+      <SearchUser />
     </MainContent>
   </React.StrictMode>,
   document.getElementById("root")
