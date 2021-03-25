@@ -6,10 +6,8 @@ function setLocalStorage(userData) {
   return myLocalStorage.setItem(keyName, content);
 }
 
-function getLocalStorage() {
-  const content = JSON.parse(
-    myLocalStorage.getItem("githup_app_react_last_search")
-  );
+function getLocalStorage(keyName) {
+  const content = JSON.parse(myLocalStorage.getItem(keyName));
   if (!content) return [];
   return content;
 }
