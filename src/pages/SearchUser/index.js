@@ -16,7 +16,7 @@ export default function SearchUser() {
   }, []);
 
   useEffect(() => {
-    setLocalStorage(userData);
+    setLocalStorage(userData, "githup_app_react_last_search");
   }, [userData]);
 
   useEffect(() => {

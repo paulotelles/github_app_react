@@ -1,7 +1,6 @@
 const myLocalStorage = localStorage;
 
-function setLocalStorage(userData) {
-  const keyName = "githup_app_react_last_search";
+function setLocalStorage(userData, keyName) {
   const content = JSON.stringify(userData);
   return myLocalStorage.setItem(keyName, content);
 }
